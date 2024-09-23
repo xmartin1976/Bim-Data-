@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "repl_nix_IFCPropertyManager"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+
+[tool.poetry.dependencies]
+python = ">=3.11,<4.0"
+streamlit = "^1.38.0"
+pandas = "^2.2.2"
+openpyxl = "^3.1.5"
+requests = "^2.32.3"
+plotly = "^5.24.1"
+numpy = "^2.1.1"
+scikit-learn = "^1.5.2"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
